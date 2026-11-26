@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abi Kishore — Full Stack Developer, GenAI Systems</title>
+  <meta name="description" content="Abi Kishore is a full stack developer in Chennai building production GenAI systems: AI answer-sheet evaluation, exam ERPs, OCR pipelines and business ERPs with FastAPI, Django, React and PostgreSQL." />
+  <meta name="theme-color" content="#0A0F1E" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abi Kishore — Full Stack Developer" />
+  <meta property="og:description" content="Production GenAI systems, ERPs and data pipelines. FastAPI · Django · React · PostgreSQL." />
+  <meta property="og:image" content="/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Geist+Mono:wght@400;500&family=Geist:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="/abi.webp" type="image/webp" />
+  <script>
+    (function () {
+      var d = document.documentElement, t;
+      d.classList.add('js');
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      d.dataset.theme = t;
+      document.querySelector('meta[name="theme-color"]').content = t === 'light' ? '#F1ECE2' : '#0A0F1E';
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <!-- Boot screen -->
+  <div class="boot" aria-hidden="true">
+    <div class="boot__row">
+      <span class="boot__mark">AK</span>
+      <span class="boot__count"><span data-boot-count>000</span>%</span>
+    </div>
+    <div class="boot__bar"><span></span></div>
+    <div class="boot__row boot__row--small">
+      <span>Starting portfolio</span><span>Chennai · IN</span>
+    </div>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="guides" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Abi Kishore, back to top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M9 30 L16 10 L23 30 M11.5 23 H20.5 M27 10 V30 M27 21 L33 10 M28.5 18.5 L33 30" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <span>Abi Kishore</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work"><span>01</span>Work</a>
+      <a href="#experience"><span>02</span>Experience</a>
+      <a href="#stack"><span>03</span>Stack</a>
+      <a href="#contact"><span>04</span>Contact</a>
+    </nav>
+    <div class="nav__right">
+      <span class="nav__status"><i></i>Open to opportunities</span>
+      <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle light / dark">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path class="theme-toggle__half" d="M12 3.5 A8.5 8.5 0 0 1 12 20.5 Z" fill="currentColor"/>
+        </svg>
+        <span class="theme-toggle__label mono">Dark</span>
+      </button>
+      <a class="btn btn--sm" href="/Abi_Kishore_Resume.pdf" target="_blank" rel="noopener">Résumé <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__meta mono">
+        <span>Portfolio / 2026</span>
+        <span class="hide-sm">13.08° N, 80.27° E</span>
+        <span>Chennai <b data-clock>--:--</b> IST</span>
+      </div>
+
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow mono"><span class="tick"></span>Full Stack Developer · GenAI Systems</p>
+          <h1 id="hero-title" class="hero__title" aria-label="Abi Kishore">
+            <span class="line" data-split>Abi</span>
+            <span class="line line--outline" data-split>Kishore</span>
+          </h1>
+          <p class="hero__lede">
+            I build software that runs real institutions: exam platforms where vision models grade handwritten answer sheets,
+            ERPs that keep businesses running, and pipelines that turn scanned paper into clean data.
+          </p>
+          <div class="hero__cta">
+            <a href="#work" class="btn btn--solid">See the work <span aria-hidden="true">↓</span></a>
+            <a href="mailto:abikishore1004@gmail.com" class="btn">abikishore1004@gmail.com</a>
+          </div>
+        </div>
+
+        <figure class="hero__figure">
+          <div class="hero__disc" aria-hidden="true"></div>
+          <svg class="hero__orbit" viewBox="0 0 400 400" aria-hidden="true">
+            <circle cx="200" cy="200" r="196" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="2 6"/>
+            <circle cx="200" cy="200" r="170" fill="none" stroke="currentColor" stroke-width=".6" opacity=".5"/>
+            <g class="hero__ticks"></g>
+          </svg>
+          <img src="/abi.webp" srcset="/abi-sm.webp 450w, /abi.webp 900w" sizes="(max-width: 900px) 80vw, 40vw" width="900" height="900" alt="Portrait of Abi Kishore smiling, in a brown shirt" fetchpriority="high" />
+          <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+          <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+          <figcaption class="hero__card">
+            <span class="mono label">Currently</span>
+            <strong>Full Stack Developer, Bojo AI</strong>
+            <span>Building Eval AI · Madurai, TN</span>
+          </figcaption>
+          <span class="hero__fig mono" aria-hidden="true">Fig. 00 — A. Kishore</span>
+        </figure>
+      </div>
+
+      <div class="hero__foot mono">
+        <span class="scrollcue"><i></i>Scroll</span>
+        <span class="hide-sm">Python · FastAPI · Django · React · PostgreSQL · AWS</span>
+        <span>4 systems live in production</span>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>FastAPI</span><i>/</i><span>Django</span><i>/</i><span>React</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Vision LLMs</span><i>/</i><span>RAG</span><i>/</i><span>OCR Pipelines</span><i>/</i><span>Celery + Redis</span><i>/</i><span>Supabase</span><i>/</i><span>AWS EC2</span><i>/</i><span>Docker</span><i>/</i>
+        <span>FastAPI</span><i>/</i><span>Django</span><i>/</i><span>React</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Vision LLMs</span><i>/</i><span>RAG</span><i>/</i><span>OCR Pipelines</span><i>/</i><span>Celery + Redis</span><i>/</i><span>Supabase</span><i>/</i><span>AWS EC2</span><i>/</i><span>Docker</span><i>/</i>
+      </div>
+    </div>
+
+    <!-- ============ STATEMENT + NUMBERS ============ -->
+    <section class="statement" id="about" aria-labelledby="about-title">
+      <div class="section-head mono"><span>00</span><span id="about-title">Profile</span><span class="rule"></span></div>
+      <p class="statement__text" data-words>
+        Software engineer grounded in Python and backend architecture. I take machine learning out of the notebook and
+        into products people depend on every day: graded exams, printed question papers, student records, invoices
+        and the follow-up calls that come after them.
+      </p>
+
+      <dl class="stats">
+        <div class="stat"><dt class="mono">Students on EduPrism</dt><dd><span data-count="770">0</span><sup>+</sup></dd></div>
+        <div class="stat"><dt class="mono">Exam attempts served</dt><dd><span data-count="10000" data-format="k">0</span><sup>+</sup></dd></div>
+        <div class="stat"><dt class="mono">NCERT passages in RAG</dt><dd><span data-count="13000" data-format="k">0</span><sup>+</sup></dd></div>
+        <div class="stat"><dt class="mono">Automated tests on Eval AI</dt><dd><span data-count="800">0</span><sup>+</sup></dd></div>
+      </dl>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work__head">
+        <div class="section-head mono"><span>01</span><span>Selected work</span><span class="rule"></span><span>05 projects</span></div>
+        <h2 id="work-title" class="display">Systems<br /><em>in production</em></h2>
+        <ol class="work__index mono" aria-label="Project index">
+          <li><a href="#p-evalai"><span>01</span>Eval AI</a></li>
+          <li><a href="#p-eduprism"><span>02</span>EduPrism</a></li>
+          <li><a href="#p-nahla"><span>03</span>Nahla ERP</a></li>
+          <li><a href="#p-siddhar"><span>04</span>Siddhar World</a></li>
+          <li><a href="#p-emotion"><span>05</span>Emotion → Music</a></li>
+        </ol>
+      </div>
+
+      <!-- 01 EVAL AI -->
+      <article class="case" id="p-evalai" aria-labelledby="t-evalai">
+        <aside class="case__meta">
+          <span class="case__num" aria-hidden="true">01</span>
+          <h3 id="t-evalai" class="case__title">Eval AI</h3>
+          <p class="case__sub">AI answer-sheet evaluation and question paper generator for CBSE Class 10 &amp; 12</p>
+          <dl class="case__dl mono">
+            <div><dt>Role</dt><dd>Full stack, end to end</dd></div>
+            <div><dt>Org</dt><dd>Bojo AI</dd></div>
+            <div><dt>Year</dt><dd>2026</dd></div>
+            <div><dt>Status</dt><dd><i class="live"></i>Live</dd></div>
+          </dl>
+          <a class="case__link" href="https://app.cbsemodelboard.com" target="_blank" rel="noopener">app.cbsemodelboard.com <span aria-hidden="true">↗</span></a>
+          <ul class="chips" aria-label="Tech stack">
+            <li>FastAPI</li><li>React (Vite)</li><li>PostgreSQL</li><li>Gemini 3.5 Flash</li><li>OpenRouter</li><li>Docker</li><li>AWS EC2</li><li>Razorpay</li><li>pytest</li><li>Vitest</li>
+          </ul>
+        </aside>
+
+        <div class="case__body">
+          <div class="schematic" data-diagram="evalai">
+            <div class="schematic__bar mono"><span>Fig. 01 — Two pipelines, one platform</span><span>evaluate / generate</span></div>
+            <div class="schematic__svg"></div>
+          </div>
+
+          <div class="case__blocks">
+            <section class="block">
+              <h4 class="mono"><span>A</span>Evaluation</h4>
+              <p>Teachers upload scanned handwritten answer sheets. Vision LLMs read each page, map every answer to its question, mark it against the answer key and marking scheme, and produce reports. <strong>A teacher reviews and finalises every mark</strong>; the model does the reading, the human keeps the decision.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>B</span>Paper generation</h4>
+              <p>Board-pattern question papers built from NCERT textbooks using RAG over <strong>13,000+ passages across 291 chapters</strong>. Marks and section rules are validated in code, not by the model, and an AI moderator loop flags wrong questions before anything is printed.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>C</span>Engineering details</h4>
+              <ul class="ticks">
+                <li>Exam diagrams rendered as exact SVG from model-generated specs</li>
+                <li>Converter for legacy-font Hindi PDFs with <strong>97.9% word agreement</strong> against a vision model, at no cost</li>
+                <li>Razorpay credit payments, and support for English, Hindi, Tamil, Kannada, Malayalam and Telugu</li>
+                <li><strong>800+ automated tests</strong> across pytest and Vitest</li>
+              </ul>
+            </section>
+          </div>
+
+          <dl class="metrics">
+            <div><dt class="mono">Passages indexed</dt><dd>13k+</dd></div>
+            <div><dt class="mono">Chapters</dt><dd>291</dd></div>
+            <div><dt class="mono">Languages</dt><dd>6</dd></div>
+            <div><dt class="mono">Hindi word agreement</dt><dd>97.9%</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <!-- 02 EDUPRISM -->
+      <article class="case" id="p-eduprism" aria-labelledby="t-eduprism">
+        <aside class="case__meta">
+          <span class="case__num" aria-hidden="true">02</span>
+          <h3 id="t-eduprism" class="case__title">EduPrism</h3>
+          <p class="case__sub">Website, LMS and exam ERP for Sri Sai Coaching Centre, Madurai</p>
+          <dl class="case__dl mono">
+            <div><dt>Role</dt><dd>Full stack, end to end</dd></div>
+            <div><dt>Org</dt><dd>Bojo AI</dd></div>
+            <div><dt>Year</dt><dd>2026</dd></div>
+            <div><dt>Status</dt><dd><i class="live"></i>Live · 770+ students</dd></div>
+          </dl>
+          <div class="case__links">
+            <a class="case__link" href="https://srisaiccmdu.com" target="_blank" rel="noopener">srisaiccmdu.com <span aria-hidden="true">↗</span></a>
+            <a class="case__link" href="https://exam.srisaiccmdu.com" target="_blank" rel="noopener">exam.srisaiccmdu.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <ul class="chips" aria-label="Tech stack">
+            <li>FastAPI</li><li>React (Vite)</li><li>Supabase PostgreSQL</li><li>Row-Level Security</li><li>Google Cloud Vision</li><li>Gemini</li>
+          </ul>
+        </aside>
+
+        <div class="case__body">
+          <div class="schematic" data-diagram="eduprism">
+            <div class="schematic__bar mono"><span>Fig. 02 — Paper to question bank to exam</span><span>ocr / cbt</span></div>
+            <div class="schematic__svg"></div>
+          </div>
+
+          <div class="case__blocks">
+            <section class="block">
+              <h4 class="mono"><span>A</span>The ERP</h4>
+              <p>The academy runs on it: student intake, roll number generation, fee tracking, virtual classrooms and a computer-based testing engine. It is live with <strong>770+ students and 10,000+ exam attempts</strong>.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>B</span>AI OCR pipeline</h4>
+              <p>Scanned Tamil, English and Mathematics papers, including <strong>legacy Tamil fonts</strong>, are converted into a structured question bank using Google Cloud Vision and Gemini. Question recall went from <strong>29% to 98%+</strong>.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>C</span>Reliability &amp; security</h4>
+              <ul class="ticks">
+                <li>5 user roles enforced in the database through PostgreSQL Row-Level Security</li>
+                <li>An offline-resilient exam runner, so answers are not lost on weak mobile networks</li>
+              </ul>
+            </section>
+          </div>
+
+          <dl class="metrics">
+            <div><dt class="mono">Live students</dt><dd>770+</dd></div>
+            <div><dt class="mono">Exam attempts</dt><dd>10k+</dd></div>
+            <div><dt class="mono">OCR question recall</dt><dd><s>29%</s> 98%+</dd></div>
+            <div><dt class="mono">RLS roles</dt><dd>5</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <!-- 03 NAHLA -->
+      <article class="case" id="p-nahla" aria-labelledby="t-nahla">
+        <aside class="case__meta">
+          <span class="case__num" aria-hidden="true">03</span>
+          <h3 id="t-nahla" class="case__title">Nahla ERP</h3>
+          <p class="case__sub">Leads, CRM, invoicing, inventory and field service in one system</p>
+          <dl class="case__dl mono">
+            <div><dt>Role</dt><dd>Software developer</dd></div>
+            <div><dt>Org</dt><dd>Fabhost Web Solutions</dd></div>
+            <div><dt>Year</dt><dd>2025 – 26</dd></div>
+            <div><dt>Status</dt><dd><i class="live"></i>Live</dd></div>
+          </dl>
+          <a class="case__link" href="https://erp.nahla.in" target="_blank" rel="noopener">erp.nahla.in <span aria-hidden="true">↗</span></a>
+          <ul class="chips" aria-label="Tech stack">
+            <li>React</li><li>Tailwind CSS</li><li>Supabase</li><li>PostgreSQL</li><li>Supabase Auth</li><li>Edge Functions</li><li>WhatsApp Cloud API</li>
+          </ul>
+        </aside>
+
+        <div class="case__body">
+          <div class="schematic" data-diagram="nahla">
+            <div class="schematic__bar mono"><span>Fig. 03 — From lead to the next service visit</span><span>crm / service</span></div>
+            <div class="schematic__svg"></div>
+          </div>
+
+          <div class="case__blocks">
+            <section class="block">
+              <h4 class="mono"><span>A</span>Scope</h4>
+              <p>Lead management with a follow-up calendar, CRM, sales invoicing, payments, inventory and a technician job portal, with <strong>role-based access for 8 roles</strong>.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>B</span>Data integrity</h4>
+              <p>Machine bill-of-materials tracking with <strong>immutable invoice snapshots</strong>: an invoice records exactly what was sold, even after products and prices change.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>C</span>Automation</h4>
+              <ul class="ticks">
+                <li>A recurring service engine that queues customers for telecaller follow-up before their next service date</li>
+                <li>WhatsApp follow-ups sent through the WhatsApp Cloud API</li>
+                <li>AI-driven customer follow-up</li>
+              </ul>
+            </section>
+          </div>
+
+          <dl class="metrics">
+            <div><dt class="mono">Access roles</dt><dd>8</dd></div>
+            <div><dt class="mono">Core modules</dt><dd>6</dd></div>
+            <div><dt class="mono">Channel</dt><dd>WhatsApp</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <!-- 04 SIDDHAR -->
+      <article class="case" id="p-siddhar" aria-labelledby="t-siddhar">
+        <aside class="case__meta">
+          <span class="case__num" aria-hidden="true">04</span>
+          <h3 id="t-siddhar" class="case__title">Siddhar World</h3>
+          <p class="case__sub">E-commerce storefront with integrated online payments</p>
+          <dl class="case__dl mono">
+            <div><dt>Role</dt><dd>Developer &amp; deployment</dd></div>
+            <div><dt>Org</dt><dd>Fabhost Web Solutions</dd></div>
+            <div><dt>Year</dt><dd>2025 – 26</dd></div>
+            <div><dt>Status</dt><dd><i class="live"></i>Live</dd></div>
+          </dl>
+          <a class="case__link" href="https://siddharworld.com" target="_blank" rel="noopener">siddharworld.com <span aria-hidden="true">↗</span></a>
+          <ul class="chips" aria-label="Tech stack">
+            <li>FastAPI</li><li>React (Vite)</li><li>Supabase PostgreSQL</li><li>Razorpay</li><li>Lovable Cloud</li>
+          </ul>
+        </aside>
+
+        <div class="case__body">
+          <div class="schematic" data-diagram="siddhar">
+            <div class="schematic__bar mono"><span>Fig. 04 — Checkout path</span><span>commerce</span></div>
+            <div class="schematic__svg"></div>
+          </div>
+          <div class="case__blocks">
+            <section class="block">
+              <h4 class="mono"><span>A</span>Build</h4>
+              <p>Developed and deployed the Siddhar World e-commerce website on Lovable Cloud, with a FastAPI and React (Vite) stack on Supabase PostgreSQL.</p>
+            </section>
+            <section class="block">
+              <h4 class="mono"><span>B</span>Payments</h4>
+              <p>Integrated the <strong>Razorpay payment gateway</strong> into checkout, so orders are placed and paid for on the site itself.</p>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05 EMOTION -->
+      <article class="case" id="p-emotion" aria-labelledby="t-emotion">
+        <aside class="case__meta">
+          <span class="case__num" aria-hidden="true">05</span>
+          <h3 id="t-emotion" class="case__title">Emotion&nbsp;→ Music</h3>
+          <p class="case__sub">Face-emotion based music recommendation system</p>
+          <dl class="case__dl mono">
+            <div><dt>Type</dt><dd>Academic project</dd></div>
+            <div><dt>Org</dt><dd>The American College</dd></div>
+            <div><dt>Year</dt><dd>2024</dd></div>
+            <div><dt>Status</dt><dd>Complete</dd></div>
+          </dl>
+          <ul class="chips" aria-label="Tech stack">
+            <li>Python</li><li>Flask</li><li>Computer vision</li>
+          </ul>
+        </aside>
+        <div class="case__body">
+          <div class="schematic" data-diagram="emotion">
+            <div class="schematic__bar mono"><span>Fig. 05 — Expression in, playlist out</span><span>cv / web</span></div>
+            <div class="schematic__svg"></div>
+          </div>
+          <div class="case__blocks">
+            <section class="block">
+              <h4 class="mono"><span>A</span>Concept</h4>
+              <p>A Flask web app that reads the user's facial expression, works out their emotion and recommends music to match it. This was my BSc Computer Science final project, and my first end-to-end build that combined a model with a web product.</p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="exp" id="experience" aria-labelledby="exp-title">
+      <div class="section-head mono"><span>02</span><span>Experience</span><span class="rule"></span></div>
+      <h2 id="exp-title" class="display">Where I've<br /><em>shipped</em></h2>
+
+      <ol class="timeline">
+        <span class="timeline__rail" aria-hidden="true"><span></span></span>
+
+        <li class="role">
+          <div class="role__when mono">
+            <span>Aug 2026 — Present</span>
+            <span>Madurai, Tamil Nadu</span>
+          </div>
+          <div class="role__what">
+            <h3>Full Stack Developer <span>@ Bojo AI</span></h3>
+            <ul>
+              <li>Built and run <strong>Eval AI</strong> (app.cbsemodelboard.com), a live CBSE Class 10 and 12 platform that grades handwritten answer sheets with vision LLMs and generates board-pattern question papers. Built with FastAPI, React (Vite) and PostgreSQL, deployed on AWS EC2.</li>
+              <li>Implemented RAG over 13,000+ NCERT textbook passages and an AI moderator loop that checks generated question papers, in English, Hindi, Tamil, Kannada, Malayalam and Telugu.</li>
+              <li>Developed <strong>EduPrism</strong>, the exam and academy ERP for Sri Sai Coaching Centre: 770+ live students, a computer-based testing engine and an AI OCR pipeline that digitises scanned Tamil and English question papers.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role">
+          <div class="role__when mono">
+            <span>Feb 2025 — Jul 2026</span>
+            <span>Chennai, Tamil Nadu</span>
+          </div>
+          <div class="role__what">
+            <h3>Software Developer <span>@ Fabhost Web Solutions</span></h3>
+            <ul>
+              <li>Built <strong>Nahla ERP</strong>: lead management, CRM, inventory, role-based access for 8 roles, AI customer follow-up and WhatsApp Cloud API automation, using React, Tailwind CSS and Supabase.</li>
+              <li>Developed and deployed the <strong>Siddhar World</strong> e-commerce site with Razorpay, using FastAPI, React (Vite) and Supabase PostgreSQL.</li>
+              <li>Built RESTful Django services that serve machine learning model predictions to the frontend in real time.</li>
+              <li>Designed asynchronous background tasks with <strong>Celery and Redis</strong> so heavy ML preprocessing runs without blocking the main application thread.</li>
+              <li>Automated data pipelines that use Python OCR to extract data from 3+ file formats.</li>
+              <li>Designed PostgreSQL schemas and wrote optimised queries and aggregation scripts to prepare large datasets for model training.</li>
+              <li>Deployed and maintained scalable Django applications on AWS EC2.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="stack" id="stack" aria-labelledby="stack-title">
+      <div class="section-head mono"><span>03</span><span>Stack</span><span class="rule"></span><span>spec sheet</span></div>
+      <h2 id="stack-title" class="display">Tools I<br /><em>reach for</em></h2>
+
+      <dl class="spec">
+        <div class="spec__row"><dt class="mono">01 / Languages</dt><dd>Python, C++</dd></div>
+        <div class="spec__row"><dt class="mono">02 / Frameworks</dt><dd>Django, DRF, Flask, FastAPI, React, Tailwind CSS</dd></div>
+        <div class="spec__row"><dt class="mono">03 / GenAI</dt><dd>Gemini API, vision LLMs, RAG, OCR, OpenRouter</dd></div>
+        <div class="spec__row"><dt class="mono">04 / Databases</dt><dd>PostgreSQL, MySQL, Supabase, Row-Level Security</dd></div>
+        <div class="spec__row"><dt class="mono">05 / Async &amp; infra</dt><dd>Celery, Redis, Docker, AWS (EC2, S3, Lambda)</dd></div>
+        <div class="spec__row"><dt class="mono">06 / Machine learning</dt><dd>NumPy, Pandas, Scikit-learn, Matplotlib</dd></div>
+        <div class="spec__row"><dt class="mono">07 / Integrations</dt><dd>WhatsApp Cloud API, Razorpay, Supabase Auth</dd></div>
+        <div class="spec__row"><dt class="mono">08 / Web &amp; testing</dt><dd>HTML, CSS, REST APIs, pytest, Vitest</dd></div>
+      </dl>
+
+      <div class="edu">
+        <div class="edu__col">
+          <h3 class="mono label">Education</h3>
+          <p class="edu__title">BSc Computer Science</p>
+          <p>The American College, Madurai</p>
+          <p class="mono dim">Jun 2021 — May 2024</p>
+        </div>
+        <div class="edu__col">
+          <h3 class="mono label">Certifications</h3>
+          <p class="edu__title">100 Days of Code: The Complete Python Pro Bootcamp</p>
+          <p class="mono dim">Udemy</p>
+          <p class="edu__title">Python Full Stack Development Trainee</p>
+          <p class="mono dim">JSpiders</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-head mono"><span>04</span><span>Contact</span><span class="rule"></span></div>
+      <h2 id="contact-title" class="contact__big">
+        <span class="contact__line">Have a system</span>
+        <span class="contact__line contact__line--outline">that needs</span>
+        <span class="contact__line contact__line--accent">building?</span>
+      </h2>
+      <a class="contact__mail" href="mailto:abikishore1004@gmail.com">
+        <span>abikishore1004@gmail.com</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 L19 5 M8 5 H19 V16" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      </a>
+      <ul class="contact__list mono">
+        <li><span>Phone</span><a href="tel:+919345716858">+91 93457 16858</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/abikishore46" target="_blank" rel="noopener">/in/abikishore46 ↗</a></li>
+        <li><span>GitHub</span><a href="https://github.com/Kihsore4647" target="_blank" rel="noopener">@Kihsore4647 ↗</a></li>
+        <li><span>Résumé</span><a href="/Abi_Kishore_Resume.pdf" target="_blank" rel="noopener">PDF ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer mono">
+    <span>© <span data-year>2026</span> Abi Kishore</span>
+    <span class="hide-sm">Designed &amp; built by hand · Chennai</span>
+    <span>Local time <b data-clock>--:--</b> IST</span>
+    <a href="#top" class="footer__top">Back to top ↑</a>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
